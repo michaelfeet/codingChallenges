@@ -17,11 +17,7 @@ function hello(name) {
     : name.split('').map((e, i) => {
         return i === 0 ? e.toUpperCase() : e.toLowerCase()
     }).join('')}!`
-    
-    // name === undefined || name === '' ? 'World!' 
-    // : name.split('').map((e, i) => {
-    //     return i === 0 ? e.toUpperCase() : e.toLowerCase()
-    // }).join('')
 }
+
 
 console.log(hello('joHn'))
