@@ -8,3 +8,4 @@
 let twiceAsOld = (dadYearsOld, sonYearsOld) => Math.abs(dadYearsOld - 2 * sonYearsOld)
 
 console.log(twiceAsOld(30, 7))
+console.log(twiceAsOld(30,17))
