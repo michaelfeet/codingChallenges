@@ -19,3 +19,4 @@ let sumArray = arr => {
 }
 
 console.log(sumArray([3,2,3,5,6,8,9,9,0,3,1]))
+
