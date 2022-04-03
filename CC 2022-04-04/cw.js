@@ -17,11 +17,13 @@
 
 let twoSort = s => {
     // sort araray alphabetically
-    return s.sort().find((e, i) => i == 0).split('').join('***')
     // identify first element of array
     // split first element
     // add *** between each charater of first element
+    return s.sort().find((e, i) => i == 0).split('').join('***')
 }
+
+// let twoSort = s => s.sort().find((e, i) => i == 0).split('').join('***')
 
 
 let arr = ["bitcoin", "take", "over", "the", "world", "maybe", "who", "knows", "perhaps"]
