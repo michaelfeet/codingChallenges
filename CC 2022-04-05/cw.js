@@ -32,3 +32,4 @@ let goals = (laLigaGoals, copaDelReyGoals, championsLeagueGoals) => {
 
 console.log(goals(2,4,6)) // 12
 
+
