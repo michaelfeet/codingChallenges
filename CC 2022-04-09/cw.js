@@ -4,16 +4,14 @@
 
 //return original str minus first and last char
 
-let removeChar = str => {
+let removeChar = str => str.slice(1, str.length - 1)
+
 //identify first char
-    return str.slice(1, str.length - 1)
 //remove first char
 //identify last char
-    str.replace(str[str.length - 1])
 //remove last char
 //return modified str
-    
-}
+
 
 console.log(removeChar('The quick brown fox')) // 'he quick brown fo'
 console.log(removeChar('Hello!')) // 'ello'
