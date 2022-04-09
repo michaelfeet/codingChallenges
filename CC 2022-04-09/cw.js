@@ -16,3 +16,4 @@ let removeChar = str => str.slice(1, str.length - 1)
 
 console.log(removeChar('The quick brown fox')) // 'he quick brown fo'
 console.log(removeChar('Hello!')) // 'ello'
+
