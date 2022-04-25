@@ -32,3 +32,4 @@ let calculateYears = (p, i, t, d) => {
     }
     return y
   }
+  
