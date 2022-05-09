@@ -19,3 +19,4 @@
 // 26  =>  false
 
 let isSquare = n => Math.sqrt(n) % 1 === 0
+
