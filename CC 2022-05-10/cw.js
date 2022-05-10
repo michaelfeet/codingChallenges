@@ -16,10 +16,5 @@
 // }
 
 let minMax = arr => {
-    let min = arr.sort((a, b) => a - b)[0]
-    return min
+    return [arr.sort((a, b) => a - b) [0], arr.sort((a, b) => b - a) [0]]
 }
-console.log(minMax())
-let arr = [3,4,5,7,5,3,5,87,42,5]
-
-console.log(minMax(arr))
