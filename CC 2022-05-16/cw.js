@@ -3,7 +3,9 @@
 // 'world'  =>  'dlrow'
 // 'word'   =>  'drow'
 
-function solution(str){
-    return str.split('').reverse().join('')
-}
-console.log(solution('word'))
+// function solution(str){
+//     return str.split('').reverse().join('')
+// }
+// console.log(solution('word'))
+
+let solution = str => str.split('').reverse().join('')
