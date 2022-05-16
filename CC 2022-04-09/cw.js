@@ -4,7 +4,8 @@
 
 //return original str minus first and last char
 
-let removeChar = str => str.slice(1, str.length - 1)
+let removeChar = str => str.slice(1, str.length - 1) 
+
 
 //identify first char
 //remove first char
