@@ -20,6 +20,9 @@ let stringToNumber = (str) => {
     return +str
 }
 
+// let stringToNumber = (str) => +str
+
+
 console.log(stringToNumber('9')) // 9
 console.log(stringToNumber('-9')) // -9
 console.log(stringToNumber('9.99')) // 9.99
