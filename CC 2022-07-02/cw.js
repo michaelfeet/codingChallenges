@@ -19,16 +19,21 @@
 // 20 --> "drink beer"
 // 30 --> "drink whisky"
 
-let drink = age => {
-    if (age < 14) {
-        return 'Kids drink toddy.'
-    }else if (age < 18) {
-        return 'Teens drink coke.'
-    }else if (age < 21) {
-        return 'Young adults drink beer.'
-    }else if (age >= 21) {
-        return 'Adults drink whisky.'
-    }
-}
+let peopleWithAgeDrink = age => 
+    age < 14 ? 'drink toddy' :
+    age < 18 ? 'drink coke' :
+    age < 21 ? 'drink beer' : 'drink whiskey'
+    
+// {
+//     if (age < 14) {
+//         return 'Kids drink toddy.'
+//     }else if (age < 18) {
+//         return 'Teens drink coke.'
+//     }else if (age < 21) {
+//         return 'Young adults drink beer.'
+//     }else if (age >= 21) {
+//         return 'Adults drink whisky.'
+//     }
+// }
 
-console.log(drink(15))
+console.log(peopleWithAgeDrink(15))
