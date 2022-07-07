@@ -16,16 +16,16 @@
 // 15  =>  13
 // -3  =>  -3
 
-let floorConversion = floor => {
+let getRealFloor = floor => {
     if (floor < 0) {
         return floor
     }else if (floor <= 1) {
         return 0
-    }else if (floor > 1 && floor < 13) {
+    }else if (floor > 1 && floor <= 13) {
         return floor - 1
     } else {
         return floor - 2
     }
 }
 
-console.log(floorConversion(13))
+console.log(getRealFloor(13))
