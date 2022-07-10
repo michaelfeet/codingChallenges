@@ -9,6 +9,6 @@
 // 1298734 --> 2597466
 // The input will not be 0.
 
-let even = num => num * 2 - 2
+let nthEven = num => num * 2 - 2
 
-console.log(even(1298734))
+console.log(nthEven(1298734))
