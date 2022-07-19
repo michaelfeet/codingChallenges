@@ -20,14 +20,4 @@ def unique_in_order(iterable):
             new_list.append(char)
     return new_list
 
-        
-
-
-
-
-
 print(unique_in_order(str))
-
-# qwer = []
-
-# print(qwer)
