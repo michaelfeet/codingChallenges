@@ -7,7 +7,7 @@
 
 // [10, 343445353, 3453445, 3453545353453] should return 3453455.
 
-function sumOfSmallest(arr) {
+function sumTwoSmallestNumbers(arr) {
     return arr.sort((a, b) => a - b).splice(0, 2).reduce((a, b) => a + b, 0)
 }
-console.log(sumOfSmallest([19, 5, 42, 2, 77]))
+console.log(sumTwoSmallestNumbers([19, 5, 42, 2, 77]))
