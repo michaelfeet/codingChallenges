@@ -19,7 +19,7 @@ def unique_in_order(iterable):
             letter = char
             new_list.append(char)
     return new_list
-    
+
         
 
 
